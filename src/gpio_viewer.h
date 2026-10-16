@@ -27,7 +27,7 @@ const char *release = "1.7.1";
 String mdnsHostname = "gpioviewer";
 
 // Web application assets
-const String baseURL = "https://thelastoutpostworkshop.github.io/microcontroller_devkit/gpio_viewer_1_5/";
+const String baseURL = "https://rafaelcruzmartins.github.io/gpio-viewer/";
 
 #if defined(ESP_ARDUINO_VERSION_MAJOR) && ESP_ARDUINO_VERSION_MAJOR >= 3
 #define GPIOVIEWER_ESP32CORE_VERSION_3

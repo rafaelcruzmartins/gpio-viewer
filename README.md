@@ -56,7 +56,7 @@ void loop() {}
 
 - Acesse `http://gpioviewer.local:8080` (mDNS) ou o IP impresso no monitor serial.
 - WiFi deve estar em `WIFI_STA` (`WIFI_AP` e `WIFI_AP_STA` não são suportados).
-- Os assets da interface web são carregados de `baseURL` em `src/gpio_viewer.h`; o navegador precisa de acesso à internet.
+- A interface web fica em `docs/` e é servida pelo GitHub Pages em `https://rafaelcruzmartins.github.io/gpio-viewer/` (`baseURL` em `src/gpio_viewer.h`); o navegador precisa de acesso à internet.
 
 ## Problemas comuns
 
