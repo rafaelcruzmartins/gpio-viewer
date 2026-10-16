@@ -1,10 +1,6 @@
 /***
 This example is intended to demonstrate the use of the GPIO Viewer Library.
 
-Tutorial : https://youtu.be/UxkOosaNohU
-Latest Features : https://youtu.be/JJzRXcQrl3I
-Documentation : https://github.com/thelastoutpostworkshop/gpio_viewer
-
 // Last tested on:
 // Espressif Arduino Core v3.3.10
 // ESP Async WebServer 3.11.1
