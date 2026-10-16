@@ -11,3 +11,4 @@
 - `#include <gpio_viewer.h>` deve vir primeiro: macros interceptam `pinMode`/`ledcAttach*`.
 - A UI web (build Vue minificado) fica em `docs/`, servida pelo GitHub Pages (branch `main`, pasta `/docs`) em `https://rafaelcruzmartins.github.io/gpio-viewer/` = `baseURL` em `src/gpio_viewer.h`. URLs absolutas dessa base também aparecem em `docs/GPIOViewerVue.js` e `docs/assets/main.css`. Endpoints (`/events`, `/release`, `/sampling`, `/free_psram`, `/espinfo`, `/partition`, `/pinmodes`, `/pinfunctions`) e eventos SSE (`gpio-state`, `free_heap`, `free_psram`) são acoplados a ela; não alterar sem atualizar a UI.
 - Manter `release` (`src/gpio_viewer.h`) e `version` (`library.properties`) sincronizados.
+- `docs/GPIOViewerVue.js` foi editado à mão (sem código-fonte): removidas as rotas `/about` e `/maker-tools`, a seção "Resources" da sidebar e os links do autor original (doação, YouTube, outros projetos). Não reintroduzir.
